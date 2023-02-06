@@ -1,0 +1,464 @@
+{
+	"info": {
+		"_postman_id": "2842411f-11eb-4c7c-8279-b4d4499f8ff9",
+		"name": "GET-запросы Дом Питомца. П.7.7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25423076"
+	},
+	"item": [
+		{
+			"name": "Request_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?species__name=кошка&gender__code=f&age=0",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "species__name",
+							"value": "кошка"
+						},
+						{
+							"key": "gender__code",
+							"value": "f"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?species__name=кошка&gender__code=m&age=2",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "species__name",
+							"value": "кошка"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?species__name=попугай&breed__code=cockatiel&gender__code=f&age=0",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "species__name",
+							"value": "попугай"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "f"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?species__name=попугай&gender__code=m&age=2",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "species__name",
+							"value": "попугай"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?breed__code=german_shepherd&gender__code=f&age=2",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "f"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_6",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?breed__code=pitbull&gender__code=m&age=0",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed__code",
+							"value": "pitbull"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_7",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?breed__code=cockatiel&gender__code=m&age=1",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_8",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?breed__code=pitbull&gender__code=f&age=1",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed__code",
+							"value": "pitbull"
+						},
+						{
+							"key": "gender__code",
+							"value": "f"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request_9",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://51.250.89.234/app/pet/?breed__code=german_shepherd&gender__code=m&age=0",
+					"protocol": "http",
+					"host": [
+						"51",
+						"250",
+						"89",
+						"234"
+					],
+					"path": [
+						"app",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "m"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
